@@ -17,13 +17,29 @@ This interactive Streamlit web application predicts whether a telecom customer i
 ## Project Structure
 
 ├── churnapp.py # Streamlit app UI
+
+
 ├── train_model.py # Model training script
+
+
 ├── evaluate_thresholds.py # Plots thresholds & ROC curve
+
+
 ├── churn_model.pkl # Trained Random Forest model
+
+
 ├── columns.pkl # Input feature column list
+
+
 ├── WA_Fn-UseC_-Telco...xls # Dataset (public from IBM)
+
+
 ├── Figure_1.png # ROC curve
+
+
 ├── requirements.txt # Python packages
+
+
 └── README.md # This file
 
 
