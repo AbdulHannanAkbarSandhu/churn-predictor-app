@@ -44,4 +44,4 @@ print(confusion_matrix(y_test, y_pred))
 # 8. Save the model & columns
 joblib.dump(best_rf, 'churn_model.pkl')
 joblib.dump(X.columns.tolist(), 'columns.pkl')
-print("✅ Model and columns saved successfully.")
+print(" Model and columns saved successfully.")
